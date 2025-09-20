@@ -1,0 +1,30 @@
+# përgjithshme
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+dist/
+build/
+.tmp/
+.vscode/
+coverage/
+
+# Vite / React
+client/node_modules/
+client/dist/
+
+# Server (Node/Express)
+server/node_modules/
+server/dist/
+server/.cache/
+
+# Sekrete
+.env
+.env.*
+client/.env
+client/.env.*
+server/.env
+server/.env.*
+
+# Misc
+*.local
